@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Заголовок вкладки браузера -->
+    <title>БГУИР - Расписание занятий</title>
+
+    <!-- Подключаем общий файл стилей -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- h1 — заголовок 1-го уровня, используется как название страниц -->
+    <h1>Расписание занятий с 04.01.2017<br>Честно, в основном тут клодоебство.<br>Написал основу клод, а я уже попправлял под себя все моментики. 
+     Сильно не успевал, пожтому пришлось так.<br>Но осознание куда влезть в рамках работы, например, с девтулами, 
+     присутствует. Могу спокойно работать с этим</h1>
+    <!-- Честно, в основном тут клодоебство. Написал основу клод, а я уже попправлял под себя все моментики. 
+     Сильно не успевал, пожтому пришлось так. Но осознание куда влезть в рамках работы, например, с девтулами, 
+     присутствует. Могу спокойно работать с этим))) -->
+     
+    <!-- Таблица расписания -->
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2"></th>
+                <th scope="col" rowspan="2">Время</th>
+                <th scope="col" colspan="2">2 курс</th>
+            </tr>
+            <tr>
+                <th scope="col">ПОИТ-01</th>
+                <th scope="col">ПОИТ-02</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <!--ПОНЕДЕЛЬНИК-->
+            <tr>
+                <td class="day" rowspan="3">П<br>о<br>н<br>е<br>д<br>е<br>л<br>ь<br>н<br>и<br>к</td>
+                <td class="time">9:00 – 11:00</td>
+                <td>
+                    <!-- Ссылка на lectures.html и сразу на якорь #databases -->
+                    <a href="lectures.html#databases">Базы данных</a>
+                    <span class="room">Иванов И.И., ауд. 412</span>
+                </td>
+                <td>
+                    <a href="lectures.html#graphics">Компьютерная графика</a>
+                    <span class="room">Петров П.П., ауд. 414</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">11:10 – 13:10</td>
+                <td>
+                    <a href="lectures.html#networks">Компьютерные сети</a>
+                    <span class="room">Сидоров С.С., ауд. 508</span>
+                </td>
+                <td>
+                    <a href="lectures.html#informatics">Информатика</a>
+                    <span class="room">Курочка С.П., ауд. 506</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">13:20 – 14:20</td>
+                <td>
+                    <a href="lectures.html#informatics">Информатика</a>
+                    <span class="room">Курочка С.П., ауд. 506</span>
+                </td>
+                <td>
+                    <a href="lectures.html#networks">Компьютерные сети</a>
+                    <span class="room">Сидоров С.С., ауд. 508</span>
+                </td>
+            </tr>
+
+            <!--ВТОРНИК-->
+            <tr>
+                <td class="day" rowspan="3">В<br>т<br>о<br>р<br>н<br>и<br>к</td>
+                <td class="time">15:30 – 17:30</td>
+                <td>
+                    <a href="lectures.html#algorithms">Алгоритмизация</a>
+                    <span class="room">Дмитриев Д.Д., ауд. 202</span>
+                </td>
+                <td>
+                    <a href="lectures.html#design">Проектирование</a>
+                    <span class="room">Сергеенко С.С., ауд. 412</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">17:40 – 19:40</td>
+                <td>
+                    <a href="lectures.html#design">Проектирование</a>
+                    <span class="room">Сергеенко С.С., ауд. 412</span>
+                </td>
+                <td>
+                    <a href="lectures.html#algorithms">Алгоритмизация</a>
+                    <span class="room">Дмитриев Д.Д., ауд. 202</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="time">19:50 – 21:50</td>
+                <td>
+                    <a href="lectures.html#graphics">Компьютерная графика</a>
+                    <span class="room">Петров П.П., ауд. 414</span>
+                </td>
+                <td>
+                    <a href="lectures.html#databases">Базы данных</a>
+                    <span class="room">Иванов И.И., ауд. 412</span>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
